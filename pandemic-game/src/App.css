@@ -1,0 +1,338 @@
+#board {
+  position: relative;
+  width: 940px;
+  height: 700px;
+  margin: auto;
+}
+
+.map {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.city {
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.cube {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  font-size: small;
+  text-align: center;
+}
+.cube.red {
+  background-color: #F95329;
+}
+
+.cube.blue {
+  background-color: #7CBEDF;
+}
+
+.cube.black {
+  background-color: #A5AAAD;
+}
+
+.cube.yellow {
+  background-color: #F8F4B9;
+}
+
+.red {
+  background-color: #962d18;
+}
+
+.blue {
+  background-color: #15478a;
+}
+
+.yellow {
+  background-color: #f5f231;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.researchStation {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid white;
+  position: relative;
+  left: 15px;
+}
+
+.cityName {
+  position: relative;
+  left: 30px;
+  z-index: 1;
+  color: rebeccapurple;
+  font-size: small;
+}
+
+.outbreaks {
+  border-radius: 25px;
+  background: darkgrey;
+  padding: 10px;
+  width: 75px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  top: 545px;
+  left: 40px;
+}
+
+.cures {
+  border-radius: 25px;
+  background: darkgrey;
+  padding: 10px;
+  width: 200px;
+  height: 110px;
+  text-align: center;
+  position: absolute;
+  top: 545px;
+  right: 352px;
+}
+
+.inventory {
+  border-radius: 25px;
+  background: darkgrey;
+  padding: 10px;
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  position: absolute;
+  top: 45px;
+  left: 40px;
+}
+
+.infectionRate {
+  border-radius: 25px;
+  background: darkgrey;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 180px;
+  right: 150px;
+}
+
+.epidemic {
+  border-radius: 25px;
+  padding: 10px;
+  width: 75px;
+  height: 100px;
+  position: absolute;
+}
+
+.epidemic.deck {
+  background: darkgreen;
+  top: 55px;
+  right: 250px;
+}
+
+.epidemic.discard {
+  background: palegreen;
+  top: 55px;
+  right: 150px;
+}
+
+#san_francisco {
+  top: 287px;
+  right: 844px;
+}
+#chicago {
+  top: 280px;
+  right: 768px;
+}
+#montreal {
+  top: 265px;
+  right: 712px
+}
+#new_york {
+  top: 275px;
+  right: 657px;
+}
+#atlanta {
+  top: 308px;
+  right: 773px;
+}
+#washington {
+  top: 306px;
+  right: 657px;
+}
+#london {
+  top: 246px;
+  right: 526px;
+}
+#madrid {
+  top: 303px;
+  right: 535px
+}
+#essen {
+  top: 222px;
+  right: 468px;
+}
+#paris {
+  top: 274px;
+  right: 488px;
+}
+#milan {
+  top: 271px;
+  right: 440px;
+}
+#st_petersburg {
+  top: 210px;
+  right:395px;
+}
+#los_angeles {
+  top:326px;
+  right:566px;
+}
+#miami {
+  top: 364px;
+  right:717px;
+}
+#bogota {
+  top:407px;
+  right:703px;
+}
+#lima {
+  top:485px;
+  right:746px;
+}
+#santiago {
+  top:564px;
+  right:746px;
+}
+#sao_paulo {
+  top:490px;
+  right:630px;
+}
+#buenos_aires {
+  top:537px;
+  right:668px;
+}
+#lagos {
+  top:400px;
+  right:494px;
+}
+#khartoum {
+  top:391px;
+  right:429px;
+}
+#kinshasa {
+  top:450px;
+  right:456px;
+}
+#johannesburg {
+  top:509px;
+  right:425px;
+}
+#mexico_city {
+  top:366px;
+  right:783px;
+}
+#algiers {
+  top:334px;
+  right:482px;
+}
+#istanbul {
+  top:293px;
+  right:422px;
+}
+#moscow {
+  top:223px;
+  right:382px;
+}
+#tehran {
+  top:227px;
+  right:342px;
+}
+#baghdad {
+  top:318px;
+  right:374px;
+}
+#riyadh {
+  top:372px;
+  right:367px;
+}
+#karachi {
+  top:339px;
+  right:303px;
+}
+#delhi {
+  top:299px;
+  right:267px;
+}
+#mumbai {
+  top:377px;
+  right:305px;
+}
+#cairo {
+  top:341px;
+  right:425px;
+}
+#chennai {
+  top:403px;
+  right:268px;
+}
+#kolkata {
+  top:325px;
+  right:212px;
+}
+#beijing {
+  top:271px;
+  right:179px;
+}
+#seoul {
+  top:279px;
+  right:131px;
+}
+#shanghai {
+  top:322px;
+  right:184px;
+}
+#tokyo {
+  top:290px;
+  right:93px;
+}
+#bangkok {
+  top:385px;
+  right:214px;
+}
+#hong_kong {
+  top:354px;
+  right:201px;
+}
+#taipei {
+  top:359px;
+  right:138px;
+}
+#osaka {
+  top:342px;
+  right:88px;
+}
+#jakarta {
+  top:469px;
+  right:238px;
+}
+#ho_chi_minh_city {
+  top:447px;
+  right:276px;
+}
+#manila {
+  top:430px;
+  right:100px;
+}
+#sydney {
+  top:519px;
+  right:73px;
+}
+
